@@ -1,0 +1,207 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+main{
+    background-color: rgb(102, 160, 160);
+}
+
+.header-nav {
+    background-color: #faf7f7;
+}
+
+
+/* 導覽列 */
+.header-nav nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*background-color: #333;*/
+    color: rgb(19, 20, 19);
+    margin: 0px 50px;
+    height: 90px;
+}
+
+.nav-left h1 {
+    margin: 0;
+}
+
+.nav-right a {
+    color: rgb(7, 22, 243);
+    text-decoration: none;
+    margin-left: 15px;
+    text-decoration: underline;
+
+}
+
+.nav-right a:hover {
+    text-decoration: underline;
+}
+
+/* 歡迎區塊 */
+.hello-box {
+    display: flex;
+    justify-content: center;
+    
+  
+  
+}
+
+.hello-content {
+    display: flex;
+    justify-content: space-between;
+    background-color: #eee;
+    
+
+    width: 1000px;
+    height: 300px;
+    margin: 30px 0 30px 0;
+    border-radius: 30px;
+
+}
+
+.hello-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 50px;
+    
+}
+
+.hello-text h1{
+font: size 150px; 
+color: #ff9120;
+margin-bottom: 0;
+font-family: Microsoft JhengHei;
+
+font-style: italic
+}
+
+.hello-photo img {
+    width: 500px;
+    margin: 0 30px;
+   
+}
+
+.hello-photo {
+    display: flex;
+    align-items: flex-end;
+}
+
+/* 旅遊介紹卡片 */
+.card-box {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    
+    
+}
+
+.card-A,.card-B,.card-C{
+width: 300px;
+height: 400px;
+background-color: #f5efef;
+margin: 25px;
+border-radius: 30px;
+
+}
+.card-A p,.card-B p,.card-C p{
+    padding: 10px;
+}
+
+.A-bg{
+    height:250px;
+    background-image:url("../images/A.jpg") ;
+    background-position: center;
+    border-radius: 30px 30px 0 0;
+}
+
+
+.B-bg{
+    height:250px;
+    background-image:url("../images/B.jpg") ;
+    background-position: center;
+    border-radius: 30px 30px 0 0;
+}
+
+
+.C-bg{
+    height:250px;
+    background-image:url("../images/C.jpg") ;
+    background-position: center;
+    border-radius: 30px 30px 0 0;
+}
+
+/*.card-box > div {
+    flex: 1 1 calc(33.33% - 40px);
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.card-box > div p {
+    margin: 0;
+}*/
+
+/* 分類按鈕 */
+.type-box {
+    display: flex;
+    justify-content: center;
+    
+    gap: 20px;
+    
+    
+}
+
+.type-box a img{
+    width: 15px;
+    padding-right: 10px;
+}
+.type-box a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #fff;
+    margin: 5px;
+    height: 50px;
+    width: auto;
+    padding: 0 30px;
+    border-radius: 100px;
+}
+
+.type-box a:hover {
+    background-color: #f0f0f0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.type-A{
+    background-color: orange;
+}
+.type-B{
+    background-color: rgb(103, 18, 214);
+}
+
+.type-C{
+    background-color: rgb(129, 9, 9);
+}
+
+.type-D{
+    background-color: rgb(206, 14, 14);
+}
+.type-E{
+    background-color: rgb(12, 56, 11);
+}
+
+
+/* 頁尾 */
+footer {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+   
+    background-color: #333052;
+    color: rgb(255, 255, 255);
+}
